@@ -184,7 +184,7 @@ body.night .switch-wrapper .moon, html.night .switch-wrapper .moon {
       text-transform: uppercase;
       letter-spacing: 2px;
       text-decoration: none;
-      -webkit-text-fill-color: transparent;
+      
       display: inline-block;
       /*background-image: linear-gradient(to right, #30CFD0 0%, #330867 100%);*/
       animation: .8s shake infinite alternate;
