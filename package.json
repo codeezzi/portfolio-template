@@ -1,0 +1,37 @@
+{
+  "name": "portfolio-template",
+  "version": "1.0.0",
+  "description": "free to use portfolio template",
+  "main": "main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "git-scripts": "^0.4.3",
+    "surge": "^0.21.6"
+  },
+  "git": {
+    "scripts": {
+      "pre-push": "surge --project ./ --domain example-githooks.surge.sh"
+    }
+  },
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeezzi/portfolio-template.git"
+  },
+  "keywords": [
+    "Portfolio",
+    "resume",
+    "HTML",
+    "CSS",
+    "Js",
+    "portfolio-template"
+  ],
+  "author": "Shubham GOswami",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codeezzi/portfolio-template/issues"
+  },
+  "homepage": "https://github.com/codeezzi/portfolio-template#readme"
+}
